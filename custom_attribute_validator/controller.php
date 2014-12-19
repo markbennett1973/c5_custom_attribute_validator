@@ -43,4 +43,10 @@ class CustomAttributeValidatorAttributeTypeController extends AttributeTypeContr
   public function deleteKey() {
     return;
   }
+
+
+  public function getValue()
+  {   
+    return;
+  }
 }
