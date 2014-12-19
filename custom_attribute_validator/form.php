@@ -37,7 +37,7 @@
   function validateElement(id, type, label) {
     var value;
     if (type == 'text' || type == 'textarea') {
-      value = $('#akID\\[' + id + '\\]\\[value\\]').val();
+      value = $('#akID\\[' + id + '\\]\\[value\\]').val().trim();
       if (value == '') {
         return 'Please enter a value for ' + label;
       }
